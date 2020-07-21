@@ -4,10 +4,35 @@
 }
 .our-expertise{
     min-height: 275px;
+    height: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .icon--left {
     width: 80px;
     flex: 0 0 80px;
+}
+.icon-expert {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.expert-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.our-expertise:hover .expert-hover{
+  display: block;
+}
+.our-expertise:hover .serv-title, .our-expertise:hover p{
+  color: #fff;
 }
 .right-inform {
     flex: 1;

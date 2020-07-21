@@ -194,7 +194,7 @@ span.text-p1 {
 .wigit-sevice-box .icon-service{
     position: relative;
     width: 100px;
-    height: 95  px;
+    height: 95px;
 }
 .wigit-sevice-box .top-hover{
     display: none;
@@ -253,6 +253,10 @@ li.list-client-logo {
 }
 .our-expertise{
     min-height: 275px;
+    transition: all .5s;
+}
+.our-expertise:hover {
+    background-image: linear-gradient(#339966, #006666);
 }
 .icon--left {
     width: 80px;
@@ -316,7 +320,7 @@ li.list-client-logo {
     background-color: #fff;
 }
 /*--{----------------------industries---------*/
-.indust-title{
+/*.indust-title{
     color: #fff;
 }
 .border-indus{
@@ -356,7 +360,7 @@ li.list-client-logo {
     padding-left: 35px !important;
     padding-right: 35px !important;
 }
-
+*/
 /*----------------upadte status-------------------*/
 .status-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.86)), url(../images/status-bg.jpg);
@@ -415,86 +419,6 @@ li.list-client-logo {
 
 }
 
-
-/*-----------why choose foster----------*/
-.whyc-section{
-    padding: 30px 0px;
-}
-.fullwhy--bx{
-    position: relative;
-}
-.fullwhy--bx::before {
-    display: block;
-    background: url(../images/map.png) no-repeat;
-    content: "";
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    background-position: right center;
-
-}
-.why-img {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0px 30px 30px 0px;
-    background-color: #fef8f8;
-    max-height: 700px;
-}
-.why-img-overlap::before {
-    content: "";
-    background-color: rgba(34, 25, 25, 0.9);
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0;
-    right: 0;
-    z-index: 0;
-}
-.why--us {
-    position: absolute;
-    top: 0;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-.why-img .object-fit-cover {
-    object-fit: cover;
-    min-height: 100%;
-}
-.why-title span,  .why-title strong{
-    display: block;
-}
-.why-title span {
-    letter-spacing: 15px;
-    font-size: 24px;
-}
-.why-title strong{
- 	font-size: 80px;
-}
-.read-why img {
-    width: 100px;
-}
-.title--why {
-    font-size: 32px;
-    font-weight: 900;
-    color: #fff;
-    margin-bottom: 20px;
-}
-.right--bar-why {
-    padding-left: 30px;
-    padding-right: 100px;
-}
-.right--bar-why p {
-    color: #fff;
-    font-size: 19px;
-}
-.img-ch img {
-    max-width: 550px;
-}
-.align-box-center{
-    align-items: center;
-}
 /*-------------view all report---------------*/
 .report-box{
     text-align: center;

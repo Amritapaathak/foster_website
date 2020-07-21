@@ -41,6 +41,29 @@ const Client = () =>{
                             <img src="images/get-health.jpg" alt="" /></div></li>
 					</ul>
 				    </div>
+				    <div className="carousel-item">
+				      <ul className="client-exis d-flex flex-wrap justify-content-center">
+						
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/nihon.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/mckensey.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/carefuse.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/medtonic.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/fisher.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/get-health.jpg" alt="" /></div></li>
+                        <li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/siem.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/covidien.jpg" alt="" /></div></li>
+						<li className="list-client-logo"><div className="lg-img-list">
+                            <img src="images/johnson.jpg" alt="" /></div></li>
+					</ul>
+				    </div>
 				  </div>
 				  {/* <!-- Left and right controls --> */}
 				  <a className="carousel-control-prev exist-prev" href="#demo" data-slide="prev">

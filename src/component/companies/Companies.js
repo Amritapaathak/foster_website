@@ -5,34 +5,34 @@ import './Companies.css';
 const Companies  = () =>{
    return(
        <div>
-           <section class="my-5 whyc-section primary-bg">
-	<div class="fullwhy--bx">
-		<div id="whyslider" class="carousel slide" data-ride="carousel">
+           <section className="my-5 whyc-section primary-bg">
+	<div className="fullwhy--bx">
+		<div id="whyslider" className="carousel sliderwhy">
 		  {/* <!-- Indicators --> */}
-		  <ul class="carousel-indicators choose-indicate slider-indicate">
-		    <li data-target="#whyslider" data-slide-to="0" class="active"></li>
+		  <ul className="carousel-indicators choose-indicate slider-indicate">
+		    <li data-target="#whyslider" data-slide-to="0" className="active"></li>
 		    <li data-target="#whyslider" data-slide-to="1"></li>
 		    <li data-target="#whyslider" data-slide-to="2"></li>
 		  </ul>
 		  {/* <!-- The slideshow --> */}
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-			    <div class="full-box--choose">
-			    	<div class="row m-0 align-box-center">
-						<div class="col-12 col-md-6 pl-0">
-							<div class="why-img why-img-overlap">
-								<img class="object-fit-cover" src="images/frst-why.jpg" alt=""/>
-								<div class="why--us">
-									<h2 class="title-head text-uppercase why-title text-white mb-4"><span>Why Choose </span><strong class="text-yellow">Foster's</strong>Services?</h2>
-									<div class="read-why"><button class="btn px-4"><img src="icon/play.png" alt="" /></button></div>
+		  <div className="carousel-inner">
+		    <div className="carousel-item active">
+			    <div className="full-box--choose">
+			    	<div className="row m-0 align-box-center">
+						<div className="col-12 col-md-6 pl-0">
+							<div className="why-img why-img-overlap">
+								<img className="object-fit-cover-1" src="images/frst-why.jpg" alt=""/>
+								<div className="why--us">
+									<h2 className="title-head text-uppercase why-title text-white mb-4"><span>Why Choose </span><strong className="text-yellow">Foster's</strong>Services?</h2>
+									<div className="read-why"><button className="btn px-4"><img src="icon/play.png" alt="" /></button></div>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-md-6">
-							<div class="right--bar-why">
-								<h3 class="title--why">15,75% more</h3>
+						<div className="col-12 col-md-6">
+							<div className="right--bar-why">
+								<h3 className="title--why">15,75% more</h3>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry.</p>
-								<div class="img-ch mt-3 text-center">
+								<div className="img-ch mt-3 text-center">
 									<img src="images/graph.png" alt="" />
 								</div>
 							</div>
@@ -40,34 +40,34 @@ const Companies  = () =>{
 					</div>
 				</div>
 		    </div>
-		    <div class="carousel-item">
-			    <div class="full-box--choose">
-			    	<div class="row m-0 align-box-center">
-						<div class="col-12 col-md-6 pl-0">
-							<div class="why-img">
-								<img class="object-fit-cover" src="images/graph-2.png" alt="" />
+		    <div className="carousel-item">
+			    <div className="full-box--choose">
+			    	<div className="row m-0 align-box-center">
+						<div className="col-12 col-md-6 pl-0">
+							<div className="why-img">
+								<img className="object-fit-cover-2" src="images/graph-2.png" alt="" />
 							</div>
 						</div>
-						<div class="col-12 col-md-6">
-							<div class="right--bar-why">
-								<h3 class="title--why">Our Companies push the edge of What is possible.</h3>
+						<div className="col-12 col-md-6">
+							<div className="right--bar-why">
+								<h3 className="title--why">Our Companies push the edge of What is possible.</h3>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 		    </div>
-		    <div class="carousel-item">
-			    <div class="full-box--choose">
-			    	<div class="row m-0 align-box-center">
-						<div class="col-12 col-md-6 pl-0">
-							<div class="why-img" style={{padding: "100px 30px"}}>
-								<img class="object-fit-cover" src="images/third-why.png" alt="" />
+		    <div className="carousel-item">
+			    <div className="full-box--choose">
+			    	<div className="row m-0 align-box-center">
+						<div className="col-12 col-md-6 pl-0">
+							<div className="why-img" style={{padding: "30px 30px"}}>
+								<img className="object-fit-cover-3" src="images/third-why.png" alt="" />
 							</div>
 						</div>
-						<div class="col-12 col-md-6">
-							<div class="right--bar-why">
-								<h3 class="title--why">Our Companies push the edge of What is possible.</h3>
+						<div className="col-12 col-md-6">
+							<div className="right--bar-why">
+								<h3 className="title--why">Our Companies push the edge of What is possible.</h3>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry is simply dummy text of the printing and typesetting industry.</p>
 							</div>
 						</div>

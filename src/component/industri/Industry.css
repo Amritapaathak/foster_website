@@ -15,8 +15,8 @@
 
 }
 .sec-box-1:hover {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.29);
+    transform: scale(1.29);
     z-index: 9;
 }
 .sec-box-1::before {
