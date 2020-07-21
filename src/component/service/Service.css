@@ -1,0 +1,54 @@
+.title-head {
+    font-size: 32px;
+    font-weight: 600;
+}
+.parg-disc {
+    font-size: 17px;
+}
+.service-box {
+    background-color: #fff;
+    box-shadow: 0px 5px 20px 5px #0000001a;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.alink-box-service{
+    color: #212529;
+}
+.wigit-sevice-box {
+    transition: all .5s;
+}
+.wigit-sevice-box:hover {
+    background-image: linear-gradient(#339966, #006666);
+    transition: all .5s;
+}
+.wigit-sevice-box:hover .serv-title{
+    color: #fff;
+}
+.wigit-sevice-box .icon-service{
+    position: relative;
+    width: 100px;
+    height: 95  px;
+}
+.wigit-sevice-box .top-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.wigit-sevice-box:hover .top-hover{
+    display: block;
+}
+
+.serv-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+.service-box p {
+    font-size: 15px;
+    font-weight: 500;
+}
+.more-btn{
+	background-color: #e0e0e0;
+	border-radius: 30px;
+}

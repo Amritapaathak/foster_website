@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Foster </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!------------ slider ----->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!---- bootstrap ----->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animatable.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <body>
+      <div class="wrapper">
+   
+    <div id="root"></div>
+
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- jQuery library -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript">
+			$(document).ready(function(){
+				$(window).scroll(function () {
+						if ($(this).scrollTop() > 500) {
+							$('#back-to-top').fadeIn();
+						} else {
+							$('#back-to-top').fadeOut();
+						}
+					});
+					// scroll body to 0px on click
+					$('#back-to-top').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 2500);
+						return false;
+					});
+			});
+		</script>
+		<script>
+	      var owl = $('.owl-carousel');
+	      owl.owlCarousel({
+	        margin: 10,
+	        loop: true,
+	        responsive: {
+	          0: {
+	            items: 1
+	          },
+	          768: {
+	            items: 2
+	          },
+	          992: {
+	            items: 2
+	          },
+	          1200: {
+	            items: 3
+	          }
+	        }
+	      })
+	    </script>
+	    <!--------------------- animation scroll------->
+	    <script type="text/javascript">
+	    	// Trigger CSS animations on scroll.
+// Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+
+// Looking for a version that also reverses the animation when
+// elements scroll below the fold again?
+// --> Check https://codepen.io/bramus/pen/vKpjNP
+
+jQuery(function($) {
+  
+  // Function which adds the 'animated' class to any '.animatable' in view
+  var doAnimations = function() {
+    
+    // Calc current offset and get all animatables
+    var offset = $(window).scrollTop() + $(window).height(),
+        $animatables = $('.animatable');
+    
+    // Unbind scroll handler if we have no animatables
+    if ($animatables.length == 0) {
+      $(window).off('scroll', doAnimations);
+    }
+    
+    // Check all animatables and animate them if necessary
+		$animatables.each(function(i) {
+       var $animatable = $(this);
+			if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+        $animatable.removeClass('animatable').addClass('animated');
+			}
+    });
+
+	};
+  
+  // Hook doAnimations on scroll, and trigger a scroll
+	$(window).on('scroll', doAnimations);
+  $(window).trigger('scroll');
+
+});
+	    </script>
+  </body>
+</html>

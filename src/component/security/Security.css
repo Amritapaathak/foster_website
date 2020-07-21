@@ -1,0 +1,56 @@
+.status-bg {
+    background-image: "linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.86)), url(../images/status-bg.jpg)"; 
+    background-position: 100% 56%;
+    background-size: cover;
+}
+.update-total {
+    margin-bottom: 30px;
+}
+.percent-img {
+    margin-bottom: 30px;
+}
+.update-total .stauts-comn {
+    display: inline-block;
+    font-size: 22px;
+}
+.update-total .perc-head {
+	font-weight: 500;
+    font-size: 60px;
+}
+.update-total .stauts-comn-btn{
+    font-size: 24px;
+    display: inline-block;
+    border:1px solid #fff;
+    padding: 2px 30px;
+    border-radius: 5px;
+}
+.fst-color .stauts-comn, .fst-color .perc-head{
+    color: #fe5e70;
+}
+.scnd-color .stauts-comn, .scnd-color .perc-head{
+    color: #38fede;
+}
+.thrd-color .stauts-comn, .thrd-color .perc-head{
+    color: #00aed0;
+}
+.fort-color .stauts-comn, .fort-color .perc-head{
+    color: #ffb923;
+}
+
+.fst-color .stauts-comn-btn{
+    color: #fe5e70;
+    border-color: #fe5e70;
+}
+.scnd-color .stauts-comn-btn{
+    color: #38fede;
+    border-color: #38fede;
+}
+.thrd-color .stauts-comn-btn{
+    color: #00aed0;
+    border-color: #00aed0;
+}
+.fort-color .stauts-comn-btn{
+    color: #ffb923;
+    border-color: #ffb923;
+
+}

@@ -1,0 +1,24 @@
+.column-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-expertise{
+    min-height: 275px;
+}
+.icon--left {
+    width: 80px;
+    flex: 0 0 80px;
+}
+.right-inform {
+    flex: 1;
+    margin-left: 15px;
+}
+.right-inform p{
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.read-m{
+    text-align: center;
+}

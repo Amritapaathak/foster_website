@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+    /*word-break: break-word;
+    overflow-wrap: anywhere;*/
+}
+img{
+	max-width: 100%;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover, a:focus{
+	text-decoration: none;
+}
+.btn:focus, button:focus{
+	outline: none;
+	box-shadow: none;
+}
+.primary-bg{
+	background-color: #129d87;
+}
+.yellow-bg{
+	background-color: #ffd600;
+}
+.width-100{
+	width: 100%;
+}
+.text-theme{
+    color: #129d87;   
+}
+.text-yellow{
+	color: #ffd600;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-150{
+    padding-top: 150px;
+}
+.pb-150{
+    padding-bottom: 150px;
+}
+.pb-200{
+    padding-bottom: 200px;
+}
+/*----------- Navbar bar ----------*/
+.navbar-brand img{
+    width: 140px;
+}
+.list-tt-cont{
+	padding: 8px 0px;
+}
+.list-tt-cont a {
+    font-size: 13px;
+}
+.messg-icn img {
+    width: 17px;
+}
+.mobile-icn img {
+    width: 11px;
+}
+.lg-tt button {
+    padding: 8px 10px;
+    border-radius: 0 0 5px 5px;
+    font-size: 13px;
+}
+.lg-tt span {
+    vertical-align: text-bottom;
+    margin: 0px 5px;
+    display: inline-block;
+}
+.active-bt {
+    margin-bottom: 5px;
+}
+.navmenu-nav .nav-item .nav-link {
+    padding-left: 15px;
+    padding-right: 20px;
+    color: #303030;
+    font-weight: 500;
+}
+.form-posit{
+	position: relative;
+    max-width: 250px;
+}
+.form-posit input{
+	height: 38px;
+    border-radius: 30px;
+    background-color: #e3e2e1;
+    font-size: 14px;
+    border: none;
+}
+.form-posit button {
+    position: absolute;
+    right: 20px;
+}
+.form-posit button img {
+    width: 16px;
+}
+.form-posit .form-control.pr-5 {
+    width: 100%;
+}
+.navbar-toggler-icon{
+    width: auto;
+    height: auto;
+}
+.navbar-toggler-icon .fa-bars {
+    font-size: 32px;
+    color: #129d87;
+}

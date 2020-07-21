@@ -1,0 +1,44 @@
+.feed-box {
+    background-color: #fff;
+    padding: 60px 60px;
+    border-radius: 8px;
+    margin-left: 75px;
+    position: relative;
+}
+.icon-feedback {
+    position: absolute;
+    top: 30px;
+    left: -37.5px;
+    z-index: 9;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+}
+.owl-carousel .owl-item .icon-feedback img {
+    width: auto;
+    display: inline-block;
+    width: 35px;
+}
+.title-name{
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.owlcarousel-slider .slider-owlbox .owl-dots{
+    margin-top: 30px;
+    text-align: center;
+}
+.owlcarousel-slider .slider-owlbox .owl-dots button.owl-dot{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    background-color: #ccffcc;
+    margin: 0px 5px;
+}
+.slider-owlbox .owl-dots button.owl-dot.active{
+    background-color: #fff;
+}
+

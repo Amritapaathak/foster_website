@@ -1,0 +1,48 @@
+
+.overlay-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.slider-indicate{
+    bottom: 31px;
+}
+.slider-indicate li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 0px 4.3px;
+    border: 2px solid transparent;
+    background-color: #ccffcc;
+    opacity: 1;
+}
+.slider-indicate li.active{
+    background-color: #fff;
+    border-color: #fff;
+    background-clip: border-box;
+}
+.caption-position {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+}
+.list--banner {
+    margin-bottom: 35px;
+    text-align: center;
+}
+span.num-1 {
+    flex: 1;
+    font-size: 36px;
+    font-weight: 600;
+}
+span.text-p1 {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+}
+

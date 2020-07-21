@@ -1,0 +1,40 @@
+.indust-title{
+    color: #fff;
+}
+.border-indus{
+    border-bottom: 1.5px solid #000; 
+}
+.sec-box-1 {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+
+
+}
+.sec-box-1:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 9;
+}
+.sec-box-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.78);
+    z-index: 0;
+}
+.indus-box-effort {
+    position: relative;
+    margin-top: 50px;
+}
+.sec-box-1 a {
+    background-color: #fff;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
