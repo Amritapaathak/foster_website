@@ -78,7 +78,17 @@
 						return false;
 					});
 			});
-		</script>
+    </script>
+    <script>
+      plugins: [
+    // other plugins,
+    new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+    }),
+]
+    </script>
 		<script>
 	      var owl = $('.owl-carousel');
 	      owl.owlCarousel({

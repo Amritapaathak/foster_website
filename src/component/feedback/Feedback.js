@@ -1,7 +1,13 @@
 import React from 'react';
 import './Feedback.css';
-
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+ 
 const Feedback = () =>{
+	
     return(
         <div>
  <section className="rcent-section primary-bg py-5">
@@ -26,16 +32,7 @@ const Feedback = () =>{
 			              	</div>
 			              </div>
 			            </div>
-			            <div className="item">
-			              <div className="recnt-box-sec">
-			              	<div className="feed-box">
-			              		<span className="icon-feedback yellow-bg">
-                                      <img src="icon/user.png" alt=""/></span>
-			              		<h5 className="title-name" style={{color:'red'}}>John Doe 2</h5>
-			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			              	</div>
-			              </div>
-			            </div>
+		       
 			            <div className="item">
 			              <div className="recnt-box-sec">
 			              	<div className="feed-box">
@@ -46,7 +43,16 @@ const Feedback = () =>{
 			              	</div>
 			              </div>
 			            </div>
-			            <div className="item">
+			           
+			        </div>
+			    </div>
+				<OwlCarousel
+    className="owl-theme"
+    loop
+    margin={10}
+    nav
+>
+    <div class="item"> <div className="item">
 			              <div className="recnt-box-sec">
 			              	<div className="feed-box">
 			              		<span className="icon-feedback yellow-bg">
@@ -55,9 +61,118 @@ const Feedback = () =>{
 			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 			              	</div>
 			              </div>
-			            </div>
-			        </div>
-			    </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+    <div class="item"> <div className="item">
+			              <div className="recnt-box-sec">
+			              	<div className="feed-box">
+			              		<span className="icon-feedback yellow-bg">
+                                      <img src="icon/user.png" alt=""/></span>
+			              		<h5 className="title-name">John Doe 4</h5>
+			              		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			              	</div>
+			              </div>
+			            </div></div>
+</OwlCarousel>
 			</div>
 		</div>
 	</div>
