@@ -815,7 +815,15 @@ li.list-client-logo {
 .right-sp-foster img{
     max-width: 260px;
 }
-
+/*--------------Reportautomation--------------*/
+.flip-image{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.flip-image .container{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
 
 

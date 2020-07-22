@@ -11,15 +11,16 @@ const Feedback = () =>{
     return(
         <div>
  <section className="rcent-section primary-bg py-5">
-	<div className="container container-adjust-width">
-		<div className="row">
-			<div className="col-12">
+	<div className="container-fluid">
+		<div className="row align-items-center">
+			<div className="col-12 col-md-4">
 				<div className="heading--bar text-center pb-4">
 					<h6 className="text-white">What People Think About us</h6>
 					<h2 className="title-head text-uppercase text-white">Recent Feedback</h2>
 				</div>
 			</div>
-			<div className="col-12">
+			<div className="col-12 col-md-8">
+			<div className="owlcarousel-slider">
 				<div className="owlcarousel-slider">
 					<div className="owl-carousel slider-owlbox">
 			            <div className="item">
@@ -46,12 +47,7 @@ const Feedback = () =>{
 			           
 			        </div>
 			    </div>
-				<OwlCarousel
-    className="owl-theme"
-    loop
-    margin={10}
-    nav
->
+				<OwlCarousel className="owl-theme slider-owlbox" loop margin={10} nav>
     <div class="item"> <div className="item">
 			              <div className="recnt-box-sec">
 			              	<div className="feed-box">
@@ -173,6 +169,7 @@ const Feedback = () =>{
 			              </div>
 			            </div></div>
 </OwlCarousel>
+</div>
 			</div>
 		</div>
 	</div>
