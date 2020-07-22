@@ -8,7 +8,7 @@ const TermsConditions = () =>{
         <div>
             <Header/>
          
-         <section class="pt-150 pb-150 about-sec return-sec-bg"
+         <section class="pt-100 pb-100 about-sec"
           style ={ { backgroundImage: "url(images/term-bg.jpg)" } }>
 	<div class="container">
 		<div class="row">

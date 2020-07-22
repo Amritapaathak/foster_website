@@ -2,6 +2,10 @@ import React from 'react';
 import { Link} from "react-router-dom";
 
 const Footer = () =>{
+	const scrollToTop = () => {
+		window.scrollTo(0, 0)
+	}
+    
     return(
         <div>
            <footer class="bg-footer-grey">
@@ -24,11 +28,11 @@ const Footer = () =>{
 							<div class="footer-widgets">
 								<h4 class="ftr-title text-uppercase">Quick Links</h4>
 								<ul class="menu-ftr-link">
-									<li class="link-ftr"><Link to="/terms-conditions">Terms & Conditions</Link></li>
-									<li class="link-ftr"><Link to="/privacy-policy" >Privacy Policy</Link></li>
-									<li class="link-ftr"><Link to="/disclaimer" >Disclaimer</Link></li>
-									<li class="link-ftr"><Link to="/return-policy" >Return policy</Link></li>
-									<li class="link-ftr"><Link to="/subscription" >Subscription</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/terms-conditions">Terms & Conditions</Link></li>
+									<li  onClick={scrollToTop} class="link-ftr"><Link to="/privacy-policy" >Privacy Policy</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/disclaimer" >Disclaimer</Link></li>
+									<li 	onClick={scrollToTop} class="link-ftr"><Link to="/return-policy" >Return policy</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/subscription" >Subscription</Link></li>
 								</ul>
 							</div>
 						</div>
@@ -37,11 +41,11 @@ const Footer = () =>{
 								<h4 class="ftr-title text-uppercase">Menu</h4>
 								<ul class="menu-ftr-link">
 								
-									<li class="link-ftr"><Link to="/about-us" >About Us</Link></li>
-									<li class="link-ftr"><Link to="/who-we-are" >Who we are</Link></li>
-									<li class="link-ftr"><Link to="/why-foster" >Why foster</Link></li>
-									<li class="link-ftr"><Link to="/our-global-reach" >Our Global Reach</Link></li>
-									<li class="link-ftr"><Link to="/contact-us" >Contact Us</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/about-us" >About Us</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/who-we-are" >Who we are</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/why-foster" >Why foster</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/our-global-reach" >Our Global Reach</Link></li>
+									<li onClick={scrollToTop} class="link-ftr"><Link to="/contact-us" >Contact Us</Link></li>
 								</ul>
 							</div>
 						</div>
