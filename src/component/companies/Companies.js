@@ -7,7 +7,7 @@ const Companies  = () =>{
        <div>
            <section className="my-5 whyc-section primary-bg">
 	<div className="fullwhy--bx">
-		<div id="whyslider" className="carousel sliderwhy">
+		<div id="whyslider" className="carousel sliderwhy slide" data-ride="carousel">
 		  {/* <!-- Indicators --> */}
 		  <ul className="carousel-indicators choose-indicate slider-indicate">
 		    <li data-target="#whyslider" data-slide-to="0" className="active"></li>
