@@ -2,7 +2,7 @@
     background-color: #fff;
     padding: 60px 60px;
     border-radius: 8px;
-    margin-left: 75px;
+    margin-left: 40px;
     position: relative;
 }
 .icon-feedback {
@@ -42,3 +42,9 @@
     background-color: #fff;
 }
 
+.slider-owlbox .owl-dots button.owl-dot span{
+    opacity: 0;
+}
+.slider-owlbox .owl-nav{
+    display: none;
+}

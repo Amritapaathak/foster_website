@@ -6,7 +6,7 @@ const Syndicateresearch = () =>{
     return(
         <div>
             <Header/>
-   <section class="pt-150 pb-150 about-sec return-sec-bg" style ={ { backgroundImage: "url(images/syndicate-bg.jpg)" } } >
+   <section class="pt-100 pb-100 about-sec return-sec-bg" style ={ { backgroundImage: "url(images/syndicate-bg.jpg)" } } >
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

@@ -37,19 +37,21 @@ style ={ { backgroundImage: "url(images/price-stydy.jpg)" } }
 		</div>
 	</div>
 </section>
-<section class="pt-100 mt-5 pb-100 comn-position-bg"
- 
- style ={ { backgroundImage: "url(images/price-stydy.jpg)" } } 
+<section class="pt-100 mt-5 pb-100 comn-position-bg flip-image" style ={ { backgroundImage: "url(images/price-stydy.jpg)" } } 
  >
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 offset-6">
 				<div class="max-content text-right">
-					<h3 class="title-insid">What is the need to automate your reports?</h3>
-					<p class="parg-disc text-white">As every organization have multiple tasks to perform on a daily basis like gathering data, analyzing data, devising strategies and other productive work, delay in a single phase can affect other processes. Here is when report automation comes to shine. By using report automation you can easily generate multiple reports at the same time which allows you to save time and effort to utilize it in some other areas.</p>
-					<p><strong>Report automation clearly saves your time and effort, but did it saves the money?</strong></p>
-					<h3 class="title-insid">The answer is YES</h3>
-					<p class="parg-disc text-white">Report automation tool is a visual interface which doesn’t require coding from the command line and in turn helps you to save money. These tool also allows you to generate multiple reports at the same time, reducing the man power needed to generate those reports. This means that you will require less analytics to get the job done thus saving your money in the same process.</p>
+					<div className="as-web">
+						<h3 class="title-insid price-yell">What is the need to automate your reports?</h3>
+						<p class="parg-disc text-white">As every organization have multiple tasks to perform on a daily basis like gathering data, analyzing data, devising strategies and other productive work, delay in a single phase can affect other processes. Here is when report automation comes to shine. By using report automation you can easily generate multiple reports at the same time which allows you to save time and effort to utilize it in some other areas.</p>
+						<p class="parg-disc text-white"><strong>Report automation clearly saves your time and effort, but did it saves the money?</strong></p>
+					</div>
+					<div className="mt-5">
+						<h3 class="title-insid price-yell">The answer is YES</h3>
+						<p class="parg-disc text-white">Report automation tool is a visual interface which doesn’t require coding from the command line and in turn helps you to save money. These tool also allows you to generate multiple reports at the same time, reducing the man power needed to generate those reports. This means that you will require less analytics to get the job done thus saving your money in the same process.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -101,7 +103,7 @@ style ={ { backgroundImage: "url(images/price-stydy.jpg)" } }
 		<div class="row">
 			<div class="col-12 col-md-10">
 				<div class="max-content">
-					<h3 class="title-insid">Key benefits <span class="font-weight-400">your organization and team get through report automations</span></h3>
+					<h3 class="title-insid text-yellow">Key benefits <span class="font-weight-400">your organization and team get through report automations</span></h3>
 				</div>
 			</div>
 		</div>
