@@ -14,11 +14,6 @@
 
 
 }
-.sec-box-1:hover {
-    -webkit-transform: scale(1.29);
-    transform: scale(1.29);
-    z-index: 9;
-}
 .sec-box-1::before {
     content: "";
     position: absolute;
