@@ -15,7 +15,7 @@ const Header = () =>{
                               <li className="list-tt-cont pr-3">
                               <span className="messg-icn mr-2">
 									<img src="icon/email.png" alt=""/>
-                                    <Link className="text-white" to="mailto:service@fostermarketresearch.com">service@fostermarketresearch.com</Link>
+   <Link className="text-white" to="mailto:service@fostermarketresearch.com"> {"  "} service@fostermarketresearch.com</Link>
 							  </span>
                               </li>
                               <li className="list-tt-cont">
