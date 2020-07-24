@@ -67,14 +67,41 @@ const Header = () =>{
 				      <li className="nav-item active">
 				        <Link className="nav-link" to="/">HOME</Link>
 				      </li>
-				      <li className="nav-item">
-				        <Link className="nav-link" to ="/services">SERVICES</Link>
+				      <li className="nav-item dropdown">
+				        <Link className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES</Link>
+				        <ul class="dropdown-menu drop-service" aria-labelledby="navbarDropdown">
+				          <li class="dropdown-item"><a href="#">Custom Research</a></li>
+				          <li class="dropdown-item"><a href="#">Syndicate Research</a></li>
+				          <li class="dropdown-item"><a href="#">Consulting Services</a></li>
+				          <li class="dropdown-item"><a href="#">Report Automation</a></li>
+				          <li class="dropdown-item"><a href="#">Dashboard</a></li>
+				          <li class="dropdown-item"><a href="#">Subscription</a></li>
+				        </ul>
 				      </li>
-				      <li className="nav-item">
-				        <Link className="nav-link" to ="/expertises">OUR EXPERTISE</Link>
+				      <li className="nav-item dropdown">
+				        <Link className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OUR EXPERTISE</Link>
+				        <ul class="dropdown-menu drop-service" aria-labelledby="navbarDropdown">
+				          <li class="dropdown-item"><a href="#">Infographics</a></li>
+				          <li class="dropdown-item"><a href="#">Business Strategy</a></li>
+				          <li class="dropdown-item"><a href="#">Research Methodology</a></li>
+				          <li class="dropdown-item"><a href="#">Forecasting</a></li>
+				          <li class="dropdown-item"><a href="#">Pricing Analysis</a></li>
+				          <li class="dropdown-item"><a href="#">S&D Analysis</a></li>
+				        </ul>
 				      </li>
-				      <li className="nav-item">
-				        <Link className="nav-link" to ="/industries">INDUSTRIES</Link>
+				      <li className="nav-item dropdown">
+				        <Link className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INDUSTRIES</Link>
+				        <ul class="dropdown-menu drop-service" aria-labelledby="navbarDropdown">
+				          <li class="dropdown-item"><a href="#">Pharmaceutical & Therapeutics</a></li>
+				          <li class="dropdown-item"><a href="#">Medical Imaging</a></li>
+				          <li class="dropdown-item"><a href="#">Medical Device</a></li>
+				          <li class="dropdown-item"><a href="#">Veterinary Healthcare</a></li>
+				          <li class="dropdown-item"><a href="#">Healthcare IT</a></li>
+				          <li class="dropdown-item"><a href="#">Nutrition & Feed</a></li>
+				          <li class="dropdown-item"><a href="#">Clinical Diagnostic</a></li>
+				          <li class="dropdown-item"><a href="#">Biotechnology</a></li>
+				          <li class="dropdown-item"><a href="#">Cosmetics</a></li>
+				        </ul>
 				      </li>
 				      <li className="nav-item">
 				        <Link className="nav-link" to ="/about-us">ABOUT US</Link>
